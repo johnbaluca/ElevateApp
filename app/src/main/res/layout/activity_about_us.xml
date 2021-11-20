@@ -78,10 +78,19 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
+  <pl.droidsonroids.gif.GifImageView
+      android:id="@+id/cpgif"
+      android:layout_width="331dp"
+      android:layout_height="68dp"
+      android:layout_marginTop="16dp"
+      android:src="@drawable/cp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView5"></pl.droidsonroids.gif.GifImageView>
+
   <TextView
       android:layout_width="394dp"
       android:layout_height="36dp"
-      android:layout_marginTop="68dp"
       android:gravity="center"
       android:text="MOBDEVT OTIS2"
       android:textColor="#FFFFFF"
@@ -91,7 +100,6 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintHorizontal_bias="0.47"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView5"
-      app:layout_constraintVertical_bias="0.106" />
+      app:layout_constraintTop_toBottomOf="@+id/cpgif" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

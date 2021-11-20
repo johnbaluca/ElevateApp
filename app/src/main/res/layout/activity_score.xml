@@ -23,7 +23,7 @@
     <pl.droidsonroids.gif.GifImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/trophy1"></pl.droidsonroids.gif.GifImageView>
+        android:src="@drawable/trophi22"></pl.droidsonroids.gif.GifImageView>
 
     <TextView
         android:id="@+id/elevate_congrats"
