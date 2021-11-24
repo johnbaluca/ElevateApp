@@ -18,7 +18,7 @@
         <entry key="app/src/main/res/layout/activity_enter_name.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_math_quiz.xml" value="0.24583333333333332" />
-        <entry key="app/src/main/res/layout/activity_score.xml" value="0.10347904403100233" />
+        <entry key="app/src/main/res/layout/activity_score.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_start.xml" value="0.17480928975095159" />
         <entry key="app/src/main/res/layout/activity_start_game.xml" value="0.20719595733097532" />
       </map>

@@ -20,14 +20,11 @@ class StartActivity : AppCompatActivity() {
         } */
         button3.setOnClickListener {
 
-            if (textView5.text.toString().isEmpty()) {
-
-                Toast.makeText(this, "Please enter your name", Toast.LENGTH_SHORT)
-                    .show()
+            if (elevate_entername.text.toString().isEmpty()) {
+                Toast.makeText(this, "Please enter your name", Toast.LENGTH_SHORT).show()
             } else {
-
                 val intent = Intent(this, MathQuizActivity::class.java)
-                intent.putExtra(Constants.USER_NAME, button3.text.toString())
+                intent.putExtra(Constants.USER_NAME, elevate_entername.text.toString())
                 startActivity(intent)
                 finish()
             }
