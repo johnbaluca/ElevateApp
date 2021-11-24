@@ -19,9 +19,11 @@
         <activity
             android:name=".MathQuizActivity"
             android:exported="true"
-            android:theme="@style/Theme.Design.NoActionBar" />
+            android:theme="@style/Theme.Design.NoActionBar" >
+
+        </activity>
         <activity
-            android:name=".EnterNameActivity"
+            android:name=".StartActivity"
             android:exported="true"
             android:theme="@style/Theme.Design.NoActionBar"
             android:windowSoftInputMode="adjustResize" />
@@ -31,13 +33,13 @@
             android:theme="@style/Theme.Design.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

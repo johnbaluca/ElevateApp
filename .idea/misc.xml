@@ -5,14 +5,22 @@
       <map>
         <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/drawable/default_option_border_bg.xml" value="0.2203125" />
         <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/drawable/textview_border.xml" value="0.2203125" />
-        <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/layout/activity_about_us.xml" value="0.22" />
+        <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/layout/activity_about_us.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/layout/activity_enter_name.xml" value="0.25" />
         <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/layout/activity_math_quiz.xml" value="0.25" />
         <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/layout/activity_score.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/layout/activity_splash.xml" value="0.18666666666666668" />
-        <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1125" />
-        <entry key="..\:/Users/JohnBaluca/AndroidStudioProjects/ElevateMOBDEVT/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1125" />
+        <entry key="app/src/main/res/drawable/correct_answer.xml" value="0.140625" />
+        <entry key="app/src/main/res/drawable/selected_option.xml" value="0.140625" />
+        <entry key="app/src/main/res/drawable/wrong_answer.xml" value="0.140625" />
+        <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_enter_name.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_math_quiz.xml" value="0.24583333333333332" />
+        <entry key="app/src/main/res/layout/activity_score.xml" value="0.10347904403100233" />
+        <entry key="app/src/main/res/layout/activity_start.xml" value="0.17480928975095159" />
+        <entry key="app/src/main/res/layout/activity_start_game.xml" value="0.20719595733097532" />
       </map>
     </option>
   </component>

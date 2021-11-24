@@ -27,10 +27,11 @@
 
         <ImageView
             android:id="@+id/elevate_questionimg"
-            android:layout_width="wrap_content"
-            android:layout_height="156dp"
+            android:layout_width="411dp"
+            android:layout_height="176dp"
             android:layout_marginTop="16dp"
-            android:src="@drawable/logo1" />
+            android:src="@drawable/logo1"
+            app:srcCompat="@drawable/question1" />
 
         <LinearLayout
             android:id="@+id/elevate_progressdetails"
