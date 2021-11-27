@@ -15,7 +15,7 @@ class ScoreActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_score)
 
-        //window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
+        window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
 
         val userName = intent.getStringExtra(Constants.USER_NAME)
         elevate_resultname.text = userName
@@ -32,22 +32,29 @@ class ScoreActivity : AppCompatActivity() {
             startActivity(Intent(this, MainActivity::class.java))
         }
 
-        itemShare.setOnClickListener {
-            shareScores()
-        }
 
     }
 
-    fun shareScores(){
-        val intent = Intent().apply {
-            action = Intent.ACTION_SEND
-            putExtra(Intent.EXTRA_TEXT, "Elevate App Quiz Game:" +
-                    "\nYou got a score of ${getCorrectAnswers().toString()} out of 10" +
-                    "\non ${Calendar.getInstance().time}")
-            type = "text/plain"
-        }
-        startActivity(intent)
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_game, menu)
+        return super.onCreateOptionsMenu(menu)
     }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == R.id.itemShare){
+            val intent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, "Elevate App Quiz Game:" +
+                        "\nYou got a score of ${getCorrectAnswers().toString()} out of 10" +
+                        "\non ${Calendar.getInstance().time}")
+                type = "text/plain"
+            }
+            startActivity(intent)
+            return true
+        }
+        return super.onOptionsItemSelected(item)
+    }
+
 
     private fun getCorrectAnswers(): Int{
         val correctAnswers = intent.getIntExtra(Constants.CORRECT_ANSWERS, 0)

@@ -14,11 +14,13 @@
         android:id="@+id/elevate_scoredisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:text="Result"
         android:textColor="@android:color/white"
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.499"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -51,7 +53,6 @@
         android:id="@+id/elevate_resultname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="11dp"
         android:textColor="@color/white"
         android:textSize="22sp"
         android:textStyle="bold"
@@ -76,13 +77,25 @@
         android:id="@+id/elevatescorebtn_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="23dp"
         android:background="@color/white"
         android:text="Finish"
         android:textColor="@color/splashbg"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/itemShare"
         app:layout_constraintTop_toBottomOf="@+id/elevate_score"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="20dp" />
+
+    <Button
+        android:id="@+id/itemShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/splashbg"
+        android:text="Share"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
