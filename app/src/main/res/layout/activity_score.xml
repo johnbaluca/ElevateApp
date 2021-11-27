@@ -67,4 +67,13 @@
         android:textColor="@color/splashbg"
         android:textSize="18sp"
         android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/itemShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/splashbg"
+        android:textColor="@color/white"
+        android:text="Share" />
 </LinearLayout>
