@@ -15,7 +15,7 @@
         <activity
             android:name=".ScoreActivity"
             android:exported="true"
-            android:theme="@style/Theme.Design.NoActionBar" />
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
         <activity
             android:name=".MathQuizActivity"
             android:exported="true"
