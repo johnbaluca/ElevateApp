@@ -8,28 +8,43 @@
     android:background="#7855B6"
     tools:context=".AboutUsActivity">
 
+
+  <TextView
+      android:id="@+id/textView6"
+      android:layout_width="334dp"
+      android:layout_height="253dp"
+      android:layout_marginTop="16dp"
+      android:gravity="center"
+      android:text="Elevate : Math Brain Booster Game is a mathematical quiz game developed by students of MOBDEVT OTIS2. the mechanics of the game is that the game consists of 10 mathematical questions that the player can answer. The player will be given a number of allowed wrong answers if the user exceeds the maximum attempts then the game is over."
+      android:textColor="@color/white"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.506"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
   <TextView
       android:id="@+id/textView2"
       android:layout_width="394dp"
       android:layout_height="36dp"
-      android:layout_marginTop="36dp"
+      android:layout_marginTop="288dp"
       android:gravity="center"
       android:text="John Baluca"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintHorizontal_bias="0.47"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
   <ImageView
       android:id="@+id/imageView2"
-      android:layout_width="366dp"
-      android:layout_height="332dp"
-      android:layout_marginTop="32dp"
+      android:layout_width="203dp"
+      android:layout_height="103dp"
+      android:layout_marginTop="28dp"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.355"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
       app:srcCompat="@drawable/logo1" />
@@ -38,7 +53,7 @@
       android:id="@+id/textView3"
       android:layout_width="394dp"
       android:layout_height="36dp"
-      android:layout_marginTop="12dp"
+      android:layout_marginTop="8dp"
       android:gravity="center"
       android:text="Kissle Marcelo"
       android:textColor="#363a43"
@@ -53,9 +68,9 @@
       android:id="@+id/textView4"
       android:layout_width="394dp"
       android:layout_height="36dp"
-      android:layout_marginTop="16dp"
+      android:layout_marginTop="8dp"
       android:gravity="center"
-      android:text="Gerard Nicolas"
+      android:text="Diwana Nagales"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
@@ -68,9 +83,9 @@
       android:id="@+id/elevate_entername"
       android:layout_width="394dp"
       android:layout_height="36dp"
-      android:layout_marginTop="12dp"
+      android:layout_marginTop="8dp"
       android:gravity="center"
-      android:text="Diwana Nagales"
+      android:text="Gerard Nicolas"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
@@ -83,9 +98,10 @@
       android:id="@+id/cpgif"
       android:layout_width="331dp"
       android:layout_height="68dp"
-      android:layout_marginTop="16dp"
+      android:layout_marginTop="4dp"
       android:src="@drawable/cp"
       app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.487"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/elevate_entername">
 
@@ -104,5 +120,6 @@
       app:layout_constraintHorizontal_bias="0.47"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/cpgif" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

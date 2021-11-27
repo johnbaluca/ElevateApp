@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#7855B6"
-    tools:context=".AboutUsActivity">
+    tools:context=".AboutUsActivity"
+    tools:layout_editor_absoluteX="-19dp"
+    tools:layout_editor_absoluteY="-16dp">
 
   <ImageView
       android:id="@+id/imageView2"
@@ -20,47 +21,47 @@
       app:srcCompat="@drawable/logo1" />
 
   <TextView
+      android:id="@+id/textView6"
+      android:layout_width="311dp"
+      android:layout_height="179dp"
+      android:layout_marginTop="24dp"
+      android:gravity="center"
+      android:text="Elevate : Math Brain Booster Game is a mathematical quiz game developed by students of MOBDEVT OTIS2. the mechanics of the game is that the game consists of 10 mathematical questions that the player can answer. The player will be given a number of allowed wrong answers if the user exceeds the maximum attempts then the game is over."
+      android:textColor="@color/white"
+      android:textSize="16sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.935"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
       android:id="@+id/textView2"
       android:layout_width="250dp"
       android:layout_height="36dp"
-      android:layout_marginTop="92dp"
+      android:layout_marginTop="216dp"
       android:gravity="center"
       android:text="John Baluca"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.952"
+      app:layout_constraintHorizontal_bias="0.898"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent" />
-
-  <TextView
-      android:id="@+id/textView3"
-      android:layout_width="250dp"
-      android:layout_height="36dp"
-      android:layout_marginTop="8dp"
-      android:gravity="center"
-      android:text="Kissle Marcelo"
-      android:textColor="#363a43"
-      android:textSize="25sp"
-      android:textStyle="bold"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.952"
-      app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
   <TextView
       android:id="@+id/textView4"
       android:layout_width="250dp"
       android:layout_height="36dp"
-      android:layout_marginTop="8dp"
+      android:layout_marginTop="12dp"
       android:gravity="center"
-      android:text="Gerard Nicolas"
+      android:text="Diwana Nagales"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.952"
+      app:layout_constraintHorizontal_bias="0.898"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -68,16 +69,31 @@
       android:id="@+id/elevate_entername"
       android:layout_width="250dp"
       android:layout_height="36dp"
-      android:layout_marginTop="8dp"
+      android:layout_marginTop="12dp"
       android:gravity="center"
-      android:text="Diwana Nagales"
+      android:text="Gerard Nicolas"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.952"
+      app:layout_constraintHorizontal_bias="0.898"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="250dp"
+      android:layout_height="36dp"
+      android:layout_marginTop="12dp"
+      android:gravity="center"
+      android:text="Kissle Marcelo"
+      android:textColor="#363a43"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.898"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
   <pl.droidsonroids.gif.GifImageView
       android:id="@+id/cpgif"
