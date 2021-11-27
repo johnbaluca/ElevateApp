@@ -10,73 +10,100 @@
 
   <ImageView
       android:id="@+id/imageView2"
-      android:layout_width="366dp"
-      android:layout_height="332dp"
-      android:layout_marginTop="32dp"
+      android:layout_width="368dp"
+      android:layout_height="228dp"
+      android:layout_marginTop="24dp"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.355"
+      app:layout_constraintHorizontal_bias="0.044"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
       app:srcCompat="@drawable/logo1" />
 
   <TextView
-      android:id="@+id/textView3"
-      android:layout_width="394dp"
+      android:id="@+id/textView2"
+      android:layout_width="250dp"
       android:layout_height="36dp"
-      android:layout_marginTop="32dp"
+      android:layout_marginTop="92dp"
       android:gravity="center"
-      android:text="Welcome!"
-      android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+      android:text="John Baluca"
       android:textColor="#363a43"
-      android:textSize="30sp"
+      android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.47"
+      app:layout_constraintHorizontal_bias="0.952"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="250dp"
+      android:layout_height="36dp"
+      android:layout_marginTop="8dp"
+      android:gravity="center"
+      android:text="Kissle Marcelo"
+      android:textColor="#363a43"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.952"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
   <TextView
       android:id="@+id/textView4"
-      android:layout_width="394dp"
+      android:layout_width="250dp"
       android:layout_height="36dp"
-      android:layout_marginTop="20dp"
+      android:layout_marginTop="8dp"
       android:gravity="center"
-      android:text="Please enter your name:"
+      android:text="Gerard Nicolas"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.47"
+      app:layout_constraintHorizontal_bias="0.952"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-  <EditText
+  <TextView
       android:id="@+id/elevate_entername"
-      android:layout_width="394dp"
-      android:layout_height="50dp"
-      android:layout_marginTop="12dp"
+      android:layout_width="250dp"
+      android:layout_height="36dp"
+      android:layout_marginTop="8dp"
       android:gravity="center"
+      android:text="Diwana Nagales"
       android:textColor="#363a43"
       android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.47"
+      app:layout_constraintHorizontal_bias="0.952"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
-  <Button
-      android:id="@+id/elevatenamebtn_startgame"
-      android:layout_width="394dp"
-      android:layout_height="80dp"
-      android:layout_marginBottom="28dp"
+  <pl.droidsonroids.gif.GifImageView
+      android:id="@+id/cpgif"
+      android:layout_width="100dp"
+      android:layout_height="68dp"
+      android:layout_marginBottom="24dp"
+      android:src="@drawable/cp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.025"
+      app:layout_constraintStart_toStartOf="parent">
+
+  </pl.droidsonroids.gif.GifImageView>
+
+  <TextView
+      android:layout_width="200dp"
+      android:layout_height="36dp"
+      android:layout_marginBottom="38dp"
       android:gravity="center"
-      android:text="Start Game"
+      android:text="MOBDEVT OTIS2"
       android:textColor="#FFFFFF"
       android:textSize="25sp"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.47"
+      app:layout_constraintHorizontal_bias="0.218"
       app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

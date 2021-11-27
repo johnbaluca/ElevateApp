@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7855B6"
+    tools:context=".AboutUsActivity">
+
+  <ImageView
+      android:id="@+id/imageView2"
+      android:layout_width="365dp"
+      android:layout_height="296dp"
+      android:layout_marginTop="16dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.043"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:srcCompat="@drawable/logo1" />
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="250dp"
+      android:layout_height="36dp"
+      android:layout_marginTop="72dp"
+      android:layout_marginEnd="44dp"
+      android:gravity="center"
+      android:text="Welcome!"
+      android:textColor="#363a43"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <EditText
+      android:id="@+id/elevate_entername"
+      android:layout_width="250dp"
+      android:layout_height="50dp"
+      android:layout_marginTop="20dp"
+      android:layout_marginEnd="48dp"
+      android:gravity="center"
+      android:textColor="#363a43"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="250dp"
+      android:layout_height="36dp"
+      android:layout_marginTop="4dp"
+      android:layout_marginEnd="48dp"
+      android:gravity="center"
+      android:text="Please enter your name:"
+      android:textColor="#363a43"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+  <Button
+      android:id="@+id/elevatenamebtn_startgame"
+      android:layout_width="250dp"
+      android:layout_height="80dp"
+      android:layout_marginTop="32dp"
+      android:layout_marginEnd="48dp"
+      android:gravity="center"
+      android:text="Start Game"
+      android:textColor="#FFFFFF"
+      android:textSize="25sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/elevate_entername" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
