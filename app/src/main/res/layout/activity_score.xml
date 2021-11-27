@@ -36,7 +36,7 @@
         android:text="Congratulations!"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/elevate_resultname"
@@ -46,7 +46,7 @@
         android:textColor="@color/white"
         android:textSize="22sp"
         android:textStyle="bold"
-        tools:text="Username"/>
+        tools:text="Username" />
 
     <TextView
         android:id="@+id/elevate_score"
@@ -55,7 +55,7 @@
         android:layout_marginTop="10dp"
         android:textColor="@android:color/secondary_text_dark"
         android:textSize="20sp"
-        tools:text="Your Score is 0 out of 10"/>
+        tools:text="Your Score is 0 out of 10" />
 
     <Button
         android:id="@+id/elevatescorebtn_finish"
@@ -66,7 +66,7 @@
         android:text="Finish"
         android:textColor="@color/splashbg"
         android:textSize="18sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/itemShare"

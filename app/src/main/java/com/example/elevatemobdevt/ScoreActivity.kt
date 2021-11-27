@@ -31,6 +31,18 @@ class ScoreActivity : AppCompatActivity() {
         elevatescorebtn_finish.setOnClickListener {
             startActivity(Intent(this, MainActivity::class.java))
         }
+
+        itemShare.setOnClickListener {
+            val intent = Intent().apply {
+                action = Intent.ACTION_SEND
+                putExtra(Intent.EXTRA_TEXT, "Elevate App Quiz Game:" +
+                        "\nYou got a score of ${getCorrectAnswers().toString()} out of 10" +
+                        "\non ${Calendar.getInstance().time}")
+                type = "text/plain"
+            }
+            startActivity(intent)
+        }
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
