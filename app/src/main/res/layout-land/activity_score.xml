@@ -79,7 +79,7 @@
         android:layout_marginTop="23dp"
         android:background="@color/white"
         android:text="Finish"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/splashbg"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
