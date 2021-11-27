@@ -16,9 +16,10 @@
         <entry key="app/src/main/res/drawable/wrong_answer.xml" value="0.140625" />
         <entry key="app/src/main/res/layout-land/activity_math_quiz.xml" value="0.3261261261261261" />
         <entry key="app/src/main/res/layout-land/activity_score.xml" value="0.2109375" />
+        <entry key="app/src/main/res/layout-land/activity_start.xml" value="0.3145833333333333" />
         <entry key="app/src/main/res/layout/activity_about_us.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_enter_name.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.18" />
         <entry key="app/src/main/res/layout/activity_math_quiz.xml" value="0.24583333333333332" />
         <entry key="app/src/main/res/layout/activity_score.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_start.xml" value="0.17480928975095159" />
