@@ -33,36 +33,20 @@ class ScoreActivity : AppCompatActivity() {
         }
 
         itemShare.setOnClickListener {
-            val intent = Intent().apply {
-                action = Intent.ACTION_SEND
-                putExtra(Intent.EXTRA_TEXT, "Elevate App Quiz Game:" +
-                        "\nYou got a score of ${getCorrectAnswers().toString()} out of 10" +
-                        "\non ${Calendar.getInstance().time}")
-                type = "text/plain"
-            }
-            startActivity(intent)
+            shareScores()
         }
 
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_game, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == R.id.itemShare){
-            val intent = Intent().apply {
-                action = Intent.ACTION_SEND
-                putExtra(Intent.EXTRA_TEXT, "Elevate App Quiz Game:" +
-                "\nYou got a score of ${getCorrectAnswers().toString()} out of 10" +
-                "\non ${Calendar.getInstance().time}")
-                type = "text/plain"
-            }
-            startActivity(intent)
-            return true
+    fun shareScores(){
+        val intent = Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(Intent.EXTRA_TEXT, "Elevate App Quiz Game:" +
+                    "\nYou got a score of ${getCorrectAnswers().toString()} out of 10" +
+                    "\non ${Calendar.getInstance().time}")
+            type = "text/plain"
         }
-        return super.onOptionsItemSelected(item)
+        startActivity(intent)
     }
 
     private fun getCorrectAnswers(): Int{
