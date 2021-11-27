@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,17 +14,23 @@
         android:id="@+id/elevate_scoredisplay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
         android:text="Result"
         android:textColor="@android:color/white"
         android:textSize="25sp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/elevate_resultimg"
-        android:layout_width="274dp"
-        android:layout_height="233dp"
-        android:src="@drawable/trophi22">
+        android:layout_width="183dp"
+        android:layout_height="123dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/trophi22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elevate_scoredisplay">
 
     </pl.droidsonroids.gif.GifImageView>
 
@@ -32,21 +38,27 @@
         android:id="@+id/elevate_congrats"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Congratulations!"
         android:textColor="@color/white"
         android:textSize="25sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elevate_resultimg" />
 
     <TextView
         android:id="@+id/elevate_resultname"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="11dp"
         android:textColor="@color/white"
         android:textSize="22sp"
         android:textStyle="bold"
-        tools:text="Username"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elevate_congrats"
+        tools:text="Username" />
 
     <TextView
         android:id="@+id/elevate_score"
@@ -55,16 +67,22 @@
         android:layout_marginTop="10dp"
         android:textColor="@android:color/secondary_text_dark"
         android:textSize="20sp"
-        tools:text="Your Score is 0 out of 10"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elevate_resultname"
+        tools:text="Your Score is 0 out of 10" />
 
     <Button
         android:id="@+id/elevatescorebtn_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="23dp"
         android:background="@color/white"
         android:text="Finish"
         android:textColor="@color/colorPrimary"
         android:textSize="18sp"
-        android:textStyle="bold"/>
-</LinearLayout>
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/elevate_score"
+        tools:layout_editor_absoluteX="16dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
