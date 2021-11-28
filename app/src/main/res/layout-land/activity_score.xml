@@ -26,8 +26,8 @@
 
     <pl.droidsonroids.gif.GifImageView
         android:id="@+id/elevate_resultimg"
-        android:layout_width="183dp"
-        android:layout_height="123dp"
+        android:layout_width="168dp"
+        android:layout_height="97dp"
         android:layout_marginTop="8dp"
         android:src="@drawable/trophi22"
         app:layout_constraintEnd_toEndOf="parent"
@@ -77,6 +77,7 @@
         android:id="@+id/elevatescorebtn_finish"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
         android:background="@color/white"
         android:text="Finish"
         android:textColor="@color/splashbg"
@@ -86,16 +87,5 @@
         app:layout_constraintTop_toBottomOf="@+id/elevate_score"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_editor_absoluteX="20dp" />
-
-    <Button
-        android:id="@+id/itemShare"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/splashbg"
-        android:text="Share"
-        android:textColor="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="16dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
